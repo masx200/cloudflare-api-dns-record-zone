@@ -12,7 +12,7 @@ import { CreateOptions } from "./CreateOptions.ts";
 import { DeleteDNSRecord } from "./DeleteDNSRecord.ts";
 import { DNSDetailsOptions } from "./DNSDetailsOptions.ts";
 import { DNSKEYRecord } from "./DNSKEYRecord.ts";
-import { DNSRecord } from "./DNSRecord.ts";
+import { DNSRecord, DNSRecordType } from "./DNSRecord.ts";
 import { DNSRecordDetails } from "./DNSRecordDetails.ts";
 import { DSRecord } from "./DSRecord.ts";
 import { HTTPSRecord } from "./HTTPSRecord.ts";
@@ -44,7 +44,7 @@ export {
     UpdateDNSRecord,
     ZoneDetails,
 };
-export type { ZoneDetailsOptions };
+export type { DNSRecordType, ZoneDetailsOptions };
 export type { Zone };
 export type { ListZoneOptions };
 export type { PaginationOptions };

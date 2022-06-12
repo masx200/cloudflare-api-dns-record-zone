@@ -36,3 +36,4 @@ export type DNSRecord =
     | NSRecord
     | CERTRecord
     | SSHFPRecord;
+export type DNSRecordType = DNSRecord["type"];
