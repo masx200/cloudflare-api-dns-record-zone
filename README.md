@@ -13,3 +13,15 @@ https://api.cloudflare.com/#zone-properties
 适用于 `deno`
 
 https://deno.land/x/masx200_cloudflare_api_dns_record_zone/mod.ts
+
+提供了以下的API:
+```
+CreateDNSRecord,
+DeleteDNSRecord,
+DNSRecordDetails,
+ListDNSRecords,
+ListZones,
+PatchDNSRecord,
+UpdateDNSRecord,
+ZoneDetails
+```
