@@ -33,7 +33,7 @@ Deno.test("ListZones-all-error-api-token", async () => {
     console.warn(
         await assertRejects(async () => {
             await ListZones({ APIToken: "0".repeat(40) });
-        }, "Invalid access token")
+        }, "Invalid access token"),
     );
 });
 
@@ -95,7 +95,7 @@ Deno.test("DNSRecords", async (context) => {
                 id = created.id;
             }
             assert(typeof id === "string");
-        }
+        },
     );
     assert(typeof id === "string");
     await context.step("ListDNSRecords-all", async () => {
@@ -134,8 +134,8 @@ Deno.test("DNSRecords", async (context) => {
             Records.some(
                 (record) =>
                     record.name === test_dns_name &&
-                    record.type === test_dns_type
-            )
+                    record.type === test_dns_type,
+            ),
         );
     });
     await context.step("PatchDNSRecord", async () => {
