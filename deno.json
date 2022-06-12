@@ -1,0 +1,11 @@
+{
+    "tasks": {
+        "test": "deno test -A"
+    },
+    "fmt": {
+        "options": {
+            "indentWidth": 4,
+            "singleQuote": false
+        }
+    }
+}

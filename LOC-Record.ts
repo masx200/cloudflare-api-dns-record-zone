@@ -1,0 +1,33 @@
+export type LOCRecord = typeof record;
+const record = {
+    "id": "372e67954025e0ba6aaa6d586b9e0b59",
+    "type": "LOC" as const,
+    "name": "example.com",
+    "content": "IN LOC 37 46 46 N 122 23 35 W 0m 100m 0m 0m",
+    "proxiable": true,
+    "proxied": false,
+    "ttl": 3600,
+    "locked": false,
+    "zone_id": "023e105f4ecef8ad9ca31a8372d0c353",
+    "zone_name": "example.com",
+    "created_on": "2014-01-01T05:20:00.12345Z",
+    "modified_on": "2014-01-01T05:20:00.12345Z",
+    "data": {
+        "lat_degrees": 37,
+        "lat_minutes": 46,
+        "lat_seconds": 46,
+        "lat_direction": "N",
+        "long_degrees": 122,
+        "long_minutes": 23,
+        "long_seconds": 35,
+        "long_direction": "W",
+        "altitude": 0,
+        "size": 100,
+        "precision_horz": 0,
+        "precision_vert": 0,
+    },
+    "meta": {
+        "auto_added": true,
+        "source": "primary",
+    },
+};

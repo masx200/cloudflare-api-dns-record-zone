@@ -1,3 +1,5 @@
+test-data/
+.vscode/
 # Logs
 logs
 *.log
