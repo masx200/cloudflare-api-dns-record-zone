@@ -4,7 +4,9 @@ cloudflare-api-dns-record-and-zone
 
 https://api.cloudflare.com/
 
-适用于 deno
+适用于 `deno`
+
+主要是为了处理`DDNS`的`API`
 
 https://api.cloudflare.com/#dns-records-for-a-zone-properties
 
