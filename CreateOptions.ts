@@ -11,7 +11,7 @@ export type CreateOptions =
         record: {
             ttl: number;
             name: string;
-            content: string;
+            content?: string;
             type: string;
             proxied?: boolean;
             priority?: number;
