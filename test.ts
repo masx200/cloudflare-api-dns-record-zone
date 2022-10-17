@@ -4,7 +4,7 @@ import {
     assert,
     assertEquals,
     assertRejects,
-} from "https://deno.land/std@0.159.0/testing/asserts.ts";
+} from "https://deno.land/std@0.160.0/testing/asserts.ts";
 import { test_zone_name } from "./test-data/test_zone_name.ts";
 import { ZoneDetails } from "./Zone-Details.ts";
 import { test_zone_id } from "./test-data/test_zone_id.ts";
