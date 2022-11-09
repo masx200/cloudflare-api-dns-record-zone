@@ -1,4 +1,4 @@
-import { assert } from "https://deno.land/std@0.162.0/testing/asserts.ts";
+import { assert } from "https://deno.land/std@0.163.0/testing/asserts.ts";
 import { check_response_ok } from "./check_response_ok.ts";
 
 import {
