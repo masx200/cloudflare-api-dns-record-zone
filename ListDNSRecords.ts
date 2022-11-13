@@ -4,7 +4,7 @@ import { ListDNSOptions } from "./ListDNSOptions.ts";
 import { createBaseHeaders } from "./createBaseHeaders.ts";
 import { add_auth_headers } from "./add_auth_headers.ts";
 import { set_url_search_params } from "./set_url_search_params.ts";
-import { assert } from "https://deno.land/std@0.163.0/testing/asserts.ts";
+import { assert } from "https://deno.land/std@0.164.0/testing/asserts.ts";
 
 export async function ListDNSRecords(
     options: ListDNSOptions,
