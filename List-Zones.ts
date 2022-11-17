@@ -8,7 +8,7 @@ import {
 } from "./cloudflare-DNS-Records-for-a-Zone.ts";
 import { set_url_search_params } from "./set_url_search_params.ts";
 import { Zone } from "./Zone.ts";
-import { assert } from "https://deno.land/std@0.164.0/testing/asserts.ts";
+import { assert } from "https://deno.land/std@0.165.0/testing/asserts.ts";
 
 export type ListZoneOptions = AuthorizationOptions & {
     parameters?:
